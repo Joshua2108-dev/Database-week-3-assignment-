@@ -1,12 +1,12 @@
 -- 1. CREATE TABLE statement for the student table
 CREATE TABLE student (
     id INT PRIMARY KEY,
-    name VARCHAR(50),
+    fullName VARCHAR(100),
     age INT
 );
 
 -- 2. INSERT statement with at least three rows
-INSERT INTO student (id, name, age) VALUES 
+INSERT INTO student (id, fullName, age) VALUES 
 (1, 'Alice Smith', 19),
 (2, 'Bob Jones', 21),
 (3, 'Charlie Brown', 22);
